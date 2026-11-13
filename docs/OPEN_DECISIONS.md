@@ -1,0 +1,12 @@
+# Decisions to confirm
+- [ ] Raspberry Pi 4 onboard RAM amount (2GB, 4GB or 8GB)
+- [ ] Whether microSD, power adapter, ribbon cable and JST-PH leads are already owned
+- [ ] Exact sculpture dimensions and materials
+- [ ] Speaker choice and room volume; use one 8Ω 1W enclosed driver for bench test
+- [ ] BrainCraft codec compatibility with chosen Raspberry Pi OS
+- [ ] AI model/provider, per-interaction cost and monthly ceiling
+- [ ] Local vs cloud text-to-speech and chosen voice
+- [ ] Motion/presence trigger versus timed observations
+- [ ] Beak servo optional for first version?
+- [ ] Final first personality and licensed research sources
+- [ ] Privacy notice, public display conditions and maintenance plan
