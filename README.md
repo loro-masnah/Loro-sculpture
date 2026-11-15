@@ -2,7 +2,7 @@
 
 **Status:** pre-production | **Scope:** one working sculpture in 30 days | **Updated:** November 2026
 
-A parrot-sized artwork assembled from discarded materials. A hidden camera observes everyday objects; a Raspberry Pi describes the scene, retrieves ideas from a curated knowledge archive, and speaks a short interpretation. The parrot embodies how humans absorb beliefs and repeat them as if they were their own. The artwork examines social media, algorithmic echo chambers, and older ideological influences.
+A parrot-sized artwork. A hidden camera observes everyday objects; a Raspberry Pi describes the scene, retrieves ideas from a curated knowledge archive, and speaks a short interpretation. The parrot embodies how humans absorb beliefs and repeat them as if they were their own. The artwork examines social media, algorithmic echo chambers, and older ideological influences.
 
 ## Project scope
 - Prototype **one physical parrot** first, designed to scale to five distinct sculptures and personalities.
