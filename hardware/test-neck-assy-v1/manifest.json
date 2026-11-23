@@ -1,0 +1,116 @@
+{
+  "title": "Test neck assy v1",
+  "status": "prototype - output gear mesh repair required",
+  "units": "millimeter",
+  "files": [
+    {
+      "file": "test-neck-assy-v1.f3d",
+      "bytes": 10926256,
+      "sha256": "e49f51dc8814df33fcf1f81e574cfd7a8f147ac7186aea4ea0e96149a35a6534"
+    },
+    {
+      "file": "3mf/01_head_ball.3mf",
+      "bytes": 3805264,
+      "sha256": "866ef953018c29e9b0a1eb908d72102b6341c6a6664ee543854ace52d7962164",
+      "component": "01 Head ball",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/02_front_shoulder_cup.3mf",
+      "bytes": 2163053,
+      "sha256": "4db654a71d65bf5a0b51836c6beb36b5b5f62e4d921656763609028762db9f95",
+      "component": "02 Front shoulder cup",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/03_rear_shoulder_cup.3mf",
+      "bytes": 1869343,
+      "sha256": "72cb60d1245c81454d7d184af8f5a84bf93211991bf6d1902bcbe3a50bd1f47d",
+      "component": "03 Rear shoulder cup",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/04_yaw_carrier.3mf",
+      "bytes": 1406741,
+      "sha256": "7a5f614f75ff5a5eee0a9b792626b02be9869322abce967e80336a1ab754cfe1",
+      "component": "04 Yaw carrier",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/05_yaw_retaining_collar.3mf",
+      "bytes": 325505,
+      "sha256": "6d5e56bd04a5e041e04686c4b68450718b80493482807763be0d71aec130b742",
+      "component": "05 Yaw retaining collar",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/06_tilt_pinion_40T.3mf",
+      "bytes": 4505004,
+      "sha256": "d7d5b2adc96f046897a2fc24d7af3f2b5e1fad4accfdf686bde6ba20a989a2e6",
+      "component": "06 Tilt pinion 40T",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/07_yaw_servo_gear_36T.3mf",
+      "bytes": 4933657,
+      "sha256": "547082c2aa3f9bd4ee01fc4730a3ed284f0796dc6d03ca4026b4521a9141e14b",
+      "component": "07 Yaw servo gear 36T",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/08_yaw_output_gear_22T.3mf",
+      "bytes": 6591800,
+      "sha256": "3f32bd02b7e4430af0a4dc27b9a7f8d43d0efd9c4218dcef30e3c41da1fde5db",
+      "component": "08 Yaw output gear 22T",
+      "quantity": 1,
+      "mesh_checks_pass": false
+    },
+    {
+      "file": "3mf/09_yaw_arm_1.3mf",
+      "bytes": 711312,
+      "sha256": "a23639831fdc5266298d0bcecf4e2e85608dbb21b0b4e63a5a25d90fea695b05",
+      "component": "09 Yaw arm 1",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/10_yaw_arm_2.3mf",
+      "bytes": 713018,
+      "sha256": "82b5253da4f82ee09d90907a0f83c76e880488e00cff3a216bf11ac3bc878c3d",
+      "component": "10 Yaw arm 2",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/11_base_plate.3mf",
+      "bytes": 3341139,
+      "sha256": "e981953420b9a39c967e41a505fdf7552b71fa06ab1e004994c056c06c17192d",
+      "component": "11 Base plate",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/12_tilt_rack.3mf",
+      "bytes": 2128973,
+      "sha256": "370403b4a628f029ad0a0dbf02db61f892dc362b7d1e41e058a29e89a314828c",
+      "component": "12 Tilt rack",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    },
+    {
+      "file": "3mf/13_subbase.3mf",
+      "bytes": 802810,
+      "sha256": "6d1e96116a7365685a3333a6710e25e5d8ff40a2a0cccb943b0c4b78d181c61a",
+      "component": "13 Subbase",
+      "quantity": 1,
+      "mesh_checks_pass": true
+    }
+  ]
+}

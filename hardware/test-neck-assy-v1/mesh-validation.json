@@ -1,0 +1,244 @@
+{
+  "method": "Native Fusion export; serial ZIP/XML, edge adjacency, winding, degenerate triangle, signed shell volume and native/mesh volume checks. Inner closed negative-volume shells represent cavities, not extra printed pieces.",
+  "allPassed": false,
+  "knownNonmanifoldPart": "08_yaw_output_gear_22T.3mf",
+  "files": [
+    {
+      "file": "01_head_ball.3mf",
+      "vertices": 126032,
+      "triangles": 252056,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 3,
+      "meshVolume_mm3": 24884.094158168587,
+      "nativeVolume_mm3": 24885.242660991138,
+      "relativeVolumeError": 4.615196396501247e-05,
+      "units": "millimeter",
+      "sha256": "866ef953018c29e9b0a1eb908d72102b6341c6a6664ee543854ace52d7962164",
+      "shell_signed_volumes_mm3": [
+        -7.068219306328087,
+        24898.23059677645,
+        -7.068219306328087
+      ],
+      "pass": true
+    },
+    {
+      "file": "02_front_shoulder_cup.3mf",
+      "vertices": 76398,
+      "triangles": 152800,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 25303.618028048568,
+      "nativeVolume_mm3": 25303.443753169435,
+      "relativeVolumeError": 6.88739765357747e-06,
+      "units": "millimeter",
+      "sha256": "4db654a71d65bf5a0b51836c6beb36b5b5f62e4d921656763609028762db9f95",
+      "shell_signed_volumes_mm3": [
+        25303.618028049917
+      ],
+      "pass": true
+    },
+    {
+      "file": "03_rear_shoulder_cup.3mf",
+      "vertices": 60875,
+      "triangles": 121754,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 12935.883781207413,
+      "nativeVolume_mm3": 12935.838485052573,
+      "relativeVolumeError": 3.501601762593809e-06,
+      "units": "millimeter",
+      "sha256": "72cb60d1245c81454d7d184af8f5a84bf93211991bf6d1902bcbe3a50bd1f47d",
+      "shell_signed_volumes_mm3": [
+        12935.883781207773
+      ],
+      "pass": true
+    },
+    {
+      "file": "04_yaw_carrier.3mf",
+      "vertices": 49873,
+      "triangles": 99762,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 2,
+      "meshVolume_mm3": 15822.707939874459,
+      "nativeVolume_mm3": 15823.220487790553,
+      "relativeVolumeError": 3.2392136385241755e-05,
+      "units": "millimeter",
+      "sha256": "7a5f614f75ff5a5eee0a9b792626b02be9869322abce967e80336a1ab754cfe1",
+      "shell_signed_volumes_mm3": [
+        -3.5394293204549743,
+        15826.24736919485
+      ],
+      "pass": true
+    },
+    {
+      "file": "05_yaw_retaining_collar.3mf",
+      "vertices": 14260,
+      "triangles": 28524,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 1260.0420241314102,
+      "nativeVolume_mm3": 1260.0702476310607,
+      "relativeVolumeError": 2.239835414220304e-05,
+      "units": "millimeter",
+      "sha256": "6d5e56bd04a5e041e04686c4b68450718b80493482807763be0d71aec130b742",
+      "shell_signed_volumes_mm3": [
+        1260.0420241314528
+      ],
+      "pass": true
+    },
+    {
+      "file": "06_tilt_pinion_40T.3mf",
+      "vertices": 206166,
+      "triangles": 412332,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 1638.6834109361384,
+      "nativeVolume_mm3": 1638.7118625120643,
+      "relativeVolumeError": 1.7362159008364964e-05,
+      "units": "millimeter",
+      "sha256": "d7d5b2adc96f046897a2fc24d7af3f2b5e1fad4accfdf686bde6ba20a989a2e6",
+      "shell_signed_volumes_mm3": [
+        1638.6834109358813
+      ],
+      "pass": true
+    },
+    {
+      "file": "07_yaw_servo_gear_36T.3mf",
+      "vertices": 233478,
+      "triangles": 466956,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 2654.8540947837946,
+      "nativeVolume_mm3": 2654.9131140829513,
+      "relativeVolumeError": 2.2230218700434812e-05,
+      "units": "millimeter",
+      "sha256": "547082c2aa3f9bd4ee01fc4730a3ed284f0796dc6d03ca4026b4521a9141e14b",
+      "shell_signed_volumes_mm3": [
+        2654.8540947837973
+      ],
+      "pass": true
+    },
+    {
+      "file": "08_yaw_output_gear_22T.3mf",
+      "vertices": 277874,
+      "triangles": 556036,
+      "nonmanifold_edges": 130,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 2031.6723114895588,
+      "nativeVolume_mm3": 2031.6993657386954,
+      "relativeVolumeError": 1.331606909608774e-05,
+      "units": "millimeter",
+      "sha256": "3f32bd02b7e4430af0a4dc27b9a7f8d43d0efd9c4218dcef30e3c41da1fde5db",
+      "shell_signed_volumes_mm3": [
+        2031.6723114896754
+      ],
+      "pass": false
+    },
+    {
+      "file": "09_yaw_arm_1.3mf",
+      "vertices": 31005,
+      "triangles": 62010,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 6615.361957488342,
+      "nativeVolume_mm3": 6615.3765466941295,
+      "relativeVolumeError": 2.2053477506811315e-06,
+      "units": "millimeter",
+      "sha256": "a23639831fdc5266298d0bcecf4e2e85608dbb21b0b4e63a5a25d90fea695b05",
+      "shell_signed_volumes_mm3": [
+        6615.3619574882705
+      ],
+      "pass": true
+    },
+    {
+      "file": "10_yaw_arm_2.3mf",
+      "vertices": 31005,
+      "triangles": 62010,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 6615.364085741529,
+      "nativeVolume_mm3": 6615.376695478647,
+      "relativeVolumeError": 1.9061253346643778e-06,
+      "units": "millimeter",
+      "sha256": "82b5253da4f82ee09d90907a0f83c76e880488e00cff3a216bf11ac3bc878c3d",
+      "shell_signed_volumes_mm3": [
+        6615.364085741395
+      ],
+      "pass": true
+    },
+    {
+      "file": "11_base_plate.3mf",
+      "vertices": 145904,
+      "triangles": 291836,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 105096.10940669267,
+      "nativeVolume_mm3": 105095.89247248186,
+      "relativeVolumeError": 2.0641549893759845e-06,
+      "units": "millimeter",
+      "sha256": "e981953420b9a39c967e41a505fdf7552b71fa06ab1e004994c056c06c17192d",
+      "shell_signed_volumes_mm3": [
+        105096.10940663845
+      ],
+      "pass": true
+    },
+    {
+      "file": "12_tilt_rack.3mf",
+      "vertices": 99138,
+      "triangles": 198272,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 1731.4220722766945,
+      "nativeVolume_mm3": 1731.4879592928187,
+      "relativeVolumeError": 3.8052251978170955e-05,
+      "units": "millimeter",
+      "sha256": "370403b4a628f029ad0a0dbf02db61f892dc362b7d1e41e058a29e89a314828c",
+      "shell_signed_volumes_mm3": [
+        1731.4220722768432
+      ],
+      "pass": true
+    },
+    {
+      "file": "13_subbase.3mf",
+      "vertices": 38896,
+      "triangles": 77788,
+      "nonmanifold_edges": 0,
+      "inconsistent_edge_winding": 0,
+      "degenerate_triangles": 0,
+      "connected_components": 1,
+      "meshVolume_mm3": 116199.94545306917,
+      "nativeVolume_mm3": 116199.9344788282,
+      "relativeVolumeError": 9.444274662234676e-08,
+      "units": "millimeter",
+      "sha256": "6d1e96116a7365685a3333a6710e25e5d8ff40a2a0cccb943b0c4b78d181c61a",
+      "shell_signed_volumes_mm3": [
+        116199.94545307086
+      ],
+      "pass": true
+    }
+  ]
+}
