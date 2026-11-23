@@ -4,6 +4,10 @@ MG90S-driven two-axis neck prototype for the Loro sculpture. This checkpoint pre
 
 **Prototype, not a print-ready or physically qualified release.** In particular, `3mf/08_yaw_output_gear_22T.3mf` has a known non-manifold junction between its gear and flange. The defect also exists in the native Fusion body. It is included to preserve the complete test assembly, but needs repair and revalidation before printing. The other 12 component meshes passed the recorded topology checks; that does not establish physical fit or durability.
 
+## Assembly guide
+
+See [ASSEMBLY.md](ASSEMBLY.md) for the part-by-part glue/no-glue map, fastener schedule, dry-fit and assembly order, servo indexing, PETG fit checks, and commissioning checklist. In particular, capture the ball's **integral pitch pins** in the arms before permanently bonding the arms. The guide follows this exact V1 snapshot and does not change its CAD or mesh geometry.
+
 ## Files
 
 - `test-neck-assy-v1.f3d`: complete native Fusion assembly, including editable history, parameters, and two non-printable MG90S envelope references.
@@ -54,6 +58,6 @@ The stationary yaw servo drives a 36:22 speed-increasing pair. A 220-degree tota
 
 Prior sampled geometry checks support a provisional pitch range of -30 to +55 degrees. Do not command +60 degrees: rack/arm and ball/arm interference was found there. The checks are sampled, not continuous swept-volume certification, and do not include real wire stiffness or printed deformation.
 
-Recorded prototype running clearances include 0.25 mm radial yaw journal clearance, 0.4 mm yaw collar axial clearance, and 0.25 mm radial clearance between 3 mm smooth pitch pins and 3.5 mm arm bores. Prior tooth-phase samples found minimum surface separations of approximately 0.199 mm for yaw and 0.156 mm for tilt; these are **not measurements of circumferential gear backlash**. Ball/arm shoulders have intentional sliding contact, and a small localized cup seam overlap remains. Check fit, avoid clamping moving surfaces, and inspect the sliced toolpaths before printing.
+Recorded prototype running clearances include 0.25 mm radial yaw journal clearance, 0.4 mm yaw collar axial clearance, and 0.25 mm radial clearance between the ball's integral 3 mm smooth pitch pins and 3.5 mm arm bores. Prior tooth-phase samples found minimum surface separations of approximately 0.199 mm for yaw and 0.156 mm for tilt; these are **not measurements of circumferential gear backlash**. Ball/arm shoulders have intentional sliding contact, and a small localized cup seam overlap remains. Check fit, avoid clamping moving surfaces, and inspect the sliced toolpaths before printing.
 
 No head/beak geometry, electronics, controller calibration, physical torque test, or endurance qualification is included in this neck-only checkpoint.
