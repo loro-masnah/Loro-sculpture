@@ -18,6 +18,10 @@ A parrot-sized artwork. A hidden camera observes everyday objects; a Raspberry P
 
 See [hardware/BOM.md](hardware/BOM.md) for the purchase checklist.
 
+## Mechanical prototype files
+
+[Test neck assy v1](hardware/test-neck-assy-v1/) contains the native Fusion assembly and 13 named component 3MFs for the MG90S/PETG neck prototype. Read its limitations before printing: the yaw output gear has a known non-manifold junction requiring repair. This is a test checkpoint, not a qualified hardware release.
+
 ## Work plan
 1. [30-day plan](docs/30_DAY_PLAN.md)
 2. [Fresh Pi setup](docs/PI_SETUP.md)
